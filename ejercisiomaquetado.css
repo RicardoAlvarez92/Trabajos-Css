@@ -1,0 +1,41 @@
+#caja{
+    margin: auto;
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(187, 187, 187);
+    
+
+    
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+
+.espacio{
+    margin-left: 30px;
+    
+
+}
+
+.tb-fg{
+    font-size: 25;
+    color: white;
+    background-color: rgb(94, 90, 90);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.red{
+    color: red;
+    font-style: italic;
+}
+.fb{
+    background-color: white;
+}
+img{
+    margin-left: 60px;
+    float: left;
+}

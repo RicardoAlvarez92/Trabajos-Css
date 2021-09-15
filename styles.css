@@ -1,0 +1,34 @@
+/* body{
+    background-color: rgb(116, 125, 129);
+} */
+
+/* h1{
+    color: rgb(27, 133, 27);
+    text-align: center;
+}  */
+#title {
+    color: rgb(104, 148, 118);
+    text-align: center; /* el id es unico y no se repite */
+}
+
+/* p{
+    color: mediumaquamarine;
+    background-color: black;
+} */
+
+.p-large {
+    font-size: 32px;
+}
+.p-green { 
+    color:rgb(23, 23, 31);
+    background-color: hotpink;
+    
+}
+
+.p-red {
+    color: red;
+    background-color: rgb(155, 127, 127);
+}
+
+
+
