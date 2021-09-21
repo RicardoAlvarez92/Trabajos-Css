@@ -1,0 +1,41 @@
+.container{
+    width: 90%;
+    /* se puede usar min-height para definir la minima altura que el elemento podria tener (tambien puede ser max)*/
+    height: 500px; 
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    /* espacios entre elementos de forma horizontal*/
+    justify-content: space-around;
+    /* hace que los elementos bajen si no hay espacio */
+    flex-wrap: wrap;
+    /* align-items te permite ordenar de forma vertical caso contrario a justify content*/
+    align-items:flex-start ;
+}
+.caja{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja1{
+    border: 2px solid red;
+}
+.caja2{
+    border: 2px solid blue;
+   /*  align-self sirve para alinear al elemento en especifico donde se le da la propiedad */
+    align-self: flex-end;
+    
+}
+.caja3{
+    border: 2px solid yellow;
+    align-self: center;
+   
+}
+.caja4{
+    border: 2px solid green;
+}
+
+    
